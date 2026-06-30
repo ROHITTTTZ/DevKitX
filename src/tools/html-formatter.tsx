@@ -1,5 +1,6 @@
-import { html as beautifyHtml } from "js-beautify";
+import beautify from "js-beautify";
 import { TextTransform } from "@/components/tool-kit/TextTransform";
+const beautifyHtml = beautify.html;
 
 export default function HtmlFormatter() {
   return (

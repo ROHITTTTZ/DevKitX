@@ -1,5 +1,7 @@
-import { css as beautifyCss } from "js-beautify";
+import beautify from "js-beautify";
 import { TextTransform } from "@/components/tool-kit/TextTransform";
+
+const beautifyCss = beautify.css;
 
 export default function CssFormatter() {
   return (
